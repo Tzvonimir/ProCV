@@ -93,6 +93,12 @@ body {
 	border-top: 1px solid #dadada;
 }
 
+main > article ~ article {
+    margin: 20px 0 0 0;
+	padding: 20px 0 0 0;
+	border-top: 1px solid #dadada;
+}
+
 .profile-img {    
 	width: 180px;
     height: 180px;
@@ -254,4 +260,29 @@ body {
 	.period {
 		float: none;
 	}
+}
+
+.list {
+	list-style: none;
+	padding-top: 10px;
+	margin: 0;
+}
+
+.list li {
+	padding-left: 1em; 
+	text-indent: -.7em;
+}
+
+.list li::before {
+	position: relative;
+	top: 3px;
+	margin-right: 5px;
+	content: "\002022";
+	color: #2767a4;
+	font-size: 28px;
+}
+
+.certificate {
+	text-decoration: none;
+	color: inherit;
 }
