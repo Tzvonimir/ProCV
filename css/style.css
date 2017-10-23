@@ -245,6 +245,11 @@ main > article ~ article {
 		margin-left: 5px;
 	}
 
+	.profile-name {
+	    margin-left: 0;
+		text-align: center;
+	}
+
 }
 
 @media all and (max-width: 600px) {
