@@ -267,6 +267,13 @@ main > article ~ article {
 	}
 }
 
+@media all and (max-width: 350px) {
+
+	.period {
+		display: block;
+	}
+}
+
 .list {
 	list-style: none;
 	padding-top: 10px;
